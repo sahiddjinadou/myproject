@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+nav{
+    margin-block: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
