@@ -1,0 +1,13 @@
+.tasks{
+    display: flex;
+    gap: 15px;
+}
+.action,.litle{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.litle{
+    width: 80%;
+
+}

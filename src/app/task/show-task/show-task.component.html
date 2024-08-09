@@ -1,0 +1,15 @@
+<p>show-task works!</p>
+
+<div>
+    <div *ngFor="let task of allTask" class="tasks">
+        <div class="litle">
+            <div> {{task.uuid}} </div>
+            <div> {{task.description}} </div>
+            <div> {{task.isDone}} </div>
+        </div>
+        <div class="action">
+            <button>supprimer</button>
+            <button>mettre à jour</button>
+        </div>
+    </div>
+</div>

@@ -6,6 +6,9 @@ import { ReportsComponent } from './dashboard/reports/reports.component';
 import { StatisticsComponent } from './dashboard/statistics/statistics.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { EditTaskComponent } from './task/edit-task/edit-task.component';
+import { ShowTaskComponent } from './task/show-task/show-task.component';
+import { TaskComponent } from './task/task.component';
 import { UserComponent } from './user/user.component';
 
 const routes: Routes = [
@@ -19,6 +22,16 @@ const routes: Routes = [
     children: [
       { path: 'statistics', component: StatisticsComponent },
       { path: 'reports', component: ReportsComponent }
+    ]
+  },
+  {
+    path: 'taches',
+    component: TaskComponent,
+    children: [
+      { path: '',component:ShowTaskComponent  },
+      { path: 'edit', component:ShowTaskComponent  },
+      { path: 'toutes-taches', component:EditTaskComponent }
+      
     ]
   },
   { path: '**', component: PageNotFoundComponent },

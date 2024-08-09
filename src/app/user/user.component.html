@@ -1,9 +1,9 @@
 <p>user works!  le uuid : {{userId}} </p>
 
 
-<div>
-    <div *ngFor="let user of users">        
-        <div class="list">
+<div class="usergroup">
+    <div *ngFor="let user of users" class="usergroup">        
+        <div class="user">
             <p>userName :  {{user.name}} </p>
             <p>userlogin :  {{user.username}} </p>
             <p>email : {{user.email}} </p>

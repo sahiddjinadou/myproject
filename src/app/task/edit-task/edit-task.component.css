@@ -1,0 +1,19 @@
+.ajout{
+    display: block;
+    padding: 10px;
+    font-size: 22px;
+    color: #260941;
+    border: none;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 0px 12px 12px 0px;
+    background-color: rgb(63, 214, 187);
+    font-weight: 600;
+    font-size: large;
+    color: white;
+}
+.edit{
+    display: flex;
+}
